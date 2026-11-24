@@ -37,9 +37,6 @@ function fish_prompt
  
     set_color normal
 
-    set_color yellow
-    echo -n " ["(date "+%H:%M")"] "
-    
     
     set_color normal
     echo -n '$ '
